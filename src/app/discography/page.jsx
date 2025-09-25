@@ -53,12 +53,9 @@ function Discography() {
                 <span>(2010)</span>
               </li>
             </ul>
-            <button
-              className="library_button"
-              onClick={() => navigate("/albums")}
-            >
-              Explore Library
-            </button>
+            <Link href="/albums">
+              <button className="library_button">Explore Library</button>
+            </Link>
           </div>
           <div className="albums-gallery">
             <h2>ALBUMS</h2>

@@ -11,8 +11,8 @@ function About() {
   return (
     <main>
       <div className="container">
-        <section class="about">
-          <div class="container">
+        <section className="about">
+          <div className="container">
             <h3>About</h3>
             <p>
               Award-winning actor, producer, musician, and entrepreneur Cliff

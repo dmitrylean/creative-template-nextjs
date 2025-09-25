@@ -3,8 +3,8 @@
 "use client";
 
 import React, { useEffect } from "react";
-import albumsData from "../data/albums.json";
-import AlbumCard from "../modules/Music/AlbumCard";
+import albumsData from "../../lib/data/albums.json";
+import AlbumCard from "../../components/music/AlbumCard";
 import "./page.css";
 
 function Albums() {
