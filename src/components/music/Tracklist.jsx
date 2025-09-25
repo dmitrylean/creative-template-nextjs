@@ -1,12 +1,12 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Tracklist.css";
-import tracksData from "../../data/tracks.json";
+import tracksData from "../../lib/data/tracks.json";
 
 const genres = [
   { label: "All", value: "all" },
   { label: "Boom Bap", value: "boom bap" },
   { label: "G Funk", value: "g funk" },
-  { label: "Soul", value: "soul" }
+  { label: "Soul", value: "soul" },
 ];
 
 export default function TrackList() {
@@ -33,7 +33,6 @@ export default function TrackList() {
 
   return (
     <div className="tracks-section">
-
       <div className="genre-tabs">
         {genres.map((g) => (
           <button
