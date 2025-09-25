@@ -3,10 +3,7 @@ import React from "react";
 import "./YouTubeGrid.css";
 
 export default function YouTubeGrid() {
-  const videos = [
-    "https://youtu.be/y2Ly5Ijia1E",
-    "https://youtu.be/7ULnPiwjOMA",
-  ];
+  const videos = ["#", "#"];
 
   return (
     <div className="grid-container">
