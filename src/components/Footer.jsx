@@ -5,9 +5,9 @@ import Links from "./Links";
 
 const Footer = () => {
   const footerLinks = {
-    spotify: "https://open.spotify.com/artist/xyz",
-    itunes: "https://music.apple.com/artist/xyz",
-    youtube: "https://youtube.com/channel/xyz",
+    spotify: "#",
+    itunes: "#",
+    youtube: "#",
   };
 
   return (
