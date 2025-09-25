@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 20px 40px;
+}
+
+.about h3 {
+  margin-bottom: 1em;
+}
+
+.about p {
+  text-indent: 2em;
+  margin-bottom: 1em;
+}
+
+h1, p {
+  color: white;
+}
